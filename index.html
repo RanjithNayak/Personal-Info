@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Personal Information Form</h1>
+        <h4 id="sub">General Information</h3>
+        <hr>
+        <br>
+        <form action="">
+            <label>Name</label><br>
+            <div class="sub-container">
+                <input id="fname" type="text" placeholder="First Name">
+                <input id="lname" type="text" placeholder="Last name">
+            </div>
+            <br>
+            
+            <label>Date of Birth</label><br>
+            <input id="dob" type="date"><br>
+
+            <label >Gender</label><br>
+            <label for="male">Male</label>
+            <input type="checkbox" id="male" value="Male" >  
+            <label for="female">Female</label>
+            <input type="checkbox" id="female" value="Female">  
+            <label for="others">Male</label>
+            <input type="checkbox" id="others" value="Others"><br>
+
+            <label>Marital Status</label><br>
+            <input id="mStaus" type="text"><br>
+
+            <label>Nationality</label><br>
+            <input id="nationality" type="text"><br>
+
+            <label>Address</label><br>
+            <input id="address" type="text" placeholder="Street Address"><br>
+            <input id="address1" type="text" placeholder="Address Line 2"><br>
+            <div class="sub-container">
+                <input id="city"  type="text" placeholder="City">
+                <input id="state" type="text" placeholder="State/Region/Province">
+            </div>
+            <div class="sub-container">
+                <input id="zip"  type="text" placeholder="Postal/Zip Code">
+                <select id="country" >
+                    <option value="">Country</option>
+                    <option value="India">India</option>
+                    <option value="US">US</option>
+                    <option value="Europe">Europe</option>
+                </select>
+            </div>
+            <br>
+
+            <label>Email Address</label><br>
+            <input id="mail" type="text"><br>
+
+            <label>Phone Number</label><br>
+            <input id="phNo" type="text"><br>
+            <br>
+            <div class="submit-btn">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
